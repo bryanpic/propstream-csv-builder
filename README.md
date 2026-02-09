@@ -30,3 +30,16 @@ The generated CSV includes:
 - `phone` (first available phone from the contact/skip-trace export)
 - property fields (`property_*`, `mls_*`, `est_equity`)
 
+## Deploy on Streamlit Community Cloud
+
+**Don’t use the “Deploy” button in Cursor/VS Code** — it often shows “not connected to a remote.” Use the website instead:
+
+1. Open **https://share.streamlit.io** and sign in with GitHub.
+2. Click **“New app”** (or “Create app”).
+3. Choose:
+   - **Repository:** `bryanpic/propstream-csv-builder`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+4. Click **Deploy**.
+
+If the repo doesn’t appear, go to **Settings → Linked accounts** and (re)connect GitHub so Streamlit can see your repos.
